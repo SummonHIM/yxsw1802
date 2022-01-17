@@ -2,7 +2,7 @@
 layout: post
 title: 趣味运动会练习篇
 writer: 许鹏
-head_images: https://cloudflare-ipfs.com/ipfs/QmXVP88jkS8kEkGFWoekaTzys7jfnf9RMwdDcXfXENNp1B/2019-04-17-yun-dong-hui-lian-xi/1.jpg
+head_images: https://yxsw1802.coding.net/p/Sources/d/Sources/git/raw/master/2019-04-17-yun-dong-hui-lian-xi/1.jpg
 ---
 &emsp;&emsp;为了丰富我们学生的校园文化生活,让我们活跃身心,感受校园生活的快乐,也同时培养我们的团结合作精神,增强我们的集体荣誉感,学校决定举办形式多样,轻松活泼的学生趣味运动会。
 
