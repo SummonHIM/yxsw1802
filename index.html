@@ -27,7 +27,7 @@ layout: homepage
     {% for post in site.posts %}
     <a href="{{ site.url }}{{ post.url }}">
         <div class="card">
-            <img src="{% if post.head_images %}{{ post.head_images }}{% else %}assets/images/no_images.png{% endif %}"
+            <img src="{% if post.head_images %}{{ post.head_images }}{% else %}{{ site.url }}/assets/images/no_images.png{% endif %}"
                 class="card-img-top">
             <div class="card-body">
                 <h5 class="card-title text-body">{{ post.title }}</h5>
@@ -45,7 +45,7 @@ layout: homepage
     <a href="{{ site.url }}{{ post.url }}" style="text-decoration:none;">
         <div class="row g-0">
             <div class="col-md-4">
-                <img src="{% if post.head_images %}{{ post.head_images }}{% else %}assets/images/no_images.png{% endif %}"
+                <img src="{% if post.head_images %}{{ post.head_images }}{% else %}{{ site.url }}/assets/images/no_images.png{% endif %}"
                     class="img-fluid rounded-start" alt="图片载入中...">
             </div>
             <div class="col-md-8">
