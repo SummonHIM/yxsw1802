@@ -1,11 +1,89 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="Refresh" content="0; URL=http://yxsw1802.8bits.group" />
-    <title>正在重定向...</title>
-  </head>
-  <body>
-  </body>
-</html>
+---
+title: 首页
+layout: homepage
+---
+<br style="padding-top: 10px;">
+
+<div class="text-center" style="padding-top: 10px;">
+    <div class="row">
+        <div class="col-sm">
+            <h3>班级目标</h3>
+            <p>团结友爱，共同成长，自强不息，青春无悔。</p>
+        </div>
+        <div class="col-sm">
+            <h3>班级目标</h3>
+            <p>做人以德，德高人敬；学习靠勤，勤能补拙。</p>
+        </div>
+        <div class="col-sm">
+            <h3>班级</h3>
+            <p>勤奋、好学、自律、进取</p>
+        </div>
+    </div>
+</div>
+
+<br style="padding-top: 10px;">
+
+<!-- <div class="card-columns">
+    {% for post in site.posts %}
+    <a href="{{ site.url }}{{ post.url }}">
+        <div class="card">
+            <img src="{% if post.head_images %}{{ post.head_images }}{% else %}{{ site.url }}/assets/images/no_images.png{% endif %}"
+                class="card-img-top">
+            <div class="card-body">
+                <h5 class="card-title text-body">{{ post.title }}</h5>
+                <p class="card-text text-muted">{{ post.excerpt | strip_html | strip | truncate: 50 }}</p>
+                <p class="card-text"><small class="text-muted">{{ post.date | date: "%Y年%m月%d日" }} | 作者:{{ post.writer
+                        }}</small></p>
+            </div>
+        </div>
+    </a>
+    {% endfor %}
+</div> -->
+
+{% for post in paginator.posts %}
+<div class="card mb-3">
+    <a href="{{ site.url }}{{ post.url }}" style="text-decoration:none;">
+        <div class="row g-0">
+            <div class="col-md-4">
+                <img src="{% if post.head_images %}{{ post.head_images }}{% else %}{{ site.url }}/assets/images/no_images.png{% endif %}"
+                    class="img-fluid rounded-start" alt="图片载入中...">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                    <h5 class="card-title">{{ post.title }}</h5>
+                    <p class="card-text text-body">{{ post.excerpt | strip_html | strip | truncate: 50 }}</p>
+                    <p class="card-text"><small class="text-muted">{{ post.date | date: "%Y年%m月%d日" }} | 作者:{{
+                            post.writer }}</small></p>
+                </div>
+            </div>
+        </div>
+    </a>
+</div>
+{% endfor %}
+
+{% if paginator.total_pages > 1 %}
+<div class="btn-group mr-2">
+    {% if paginator.previous_page %}
+    <a class="btn btn-outline-dark" href="{{ paginator.previous_page_path | relative_url }}">&laquo; 上一页</a>
+    {% else %}
+    <a class="btn btn-outline-dark disabled">&laquo; 上一页</a>
+    {% endif %}
+
+    {% for page in (1..paginator.total_pages) %}
+    {% if page == paginator.page %}
+    <button type="button" class="btn btn-outline-dark active">{{ page }}</button>
+    {% elsif page == 1 %}
+    <a class="btn btn-outline-dark" href="{{ '/' | relative_url }}">{{ page }}</a>
+    {% else %}
+    <a class="btn btn-outline-dark" href="{{ site.paginate_path | relative_url | replace: ':num', page }}">{{ page
+        }}</a>
+    {% endif %}
+    {% endfor %}
+
+    {% if paginator.next_page %}
+    <a class="btn btn-outline-dark" href="{{ paginator.next_page_path | relative_url }}">下一页 &raquo;</a>
+    {% else %}
+    <a class="btn btn-outline-dark disabled">下一页 &raquo;</a>
+    {% endif %}
+</div>
+{% endif %}

@@ -1,0 +1,26 @@
+<div class="fixed-top deleee" style="background-color: white;">
+    <div class="cover-container d-flex w-100 p-3 mx-auto flex-column text-center">
+        <header class="masthead mb-auto">
+            <div class="inner deleee">
+                <h3 class="masthead-brand">{{ site.eng_title }}</h3>
+                <nav class="nav nav-masthead justify-content-center">
+                    {% for item in site.data.NavItem %}
+                        {% assign page_title = page.title %}
+                        {% assign page_url = page.url %}
+                        {% assign page_layout = page.layout %}
+                        
+                        {% assign item_title = item.title %}
+                        {% assign item_url = item.url %}
+                        {% assign item_layout = item.layout %}
+                        <a class="nav-link {% if page_url == item_url or page_layout == item_layout or page_title contains item.title %} active{% endif %}" href="{% if item_url contains "http" %}{{ item_url }}{% else %}{{ site.url }}{{ item_url }}{% endif %}">{{ item_title }}</a>
+                    {% endfor %}
+                </nav>
+            </div>
+        </header>
+    </div>
+</div>
+
+<div class="deleee">
+    <div class="d-none d-md-block" style="height: 68px;"></div>
+    <div class="d-block d-md-none" style="height: 101px;"></div>
+</div>

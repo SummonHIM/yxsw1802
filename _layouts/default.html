@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    {% include head.html %}
+</head>
+
+<body {% if page.permalink == "/time" %}onload="Timer()" {% endif %} id="t">
+    {% include nav_bar.html %}
+
+    <div class="jumbotron jumbotron-fluid deleee"
+        style="background-image: url({{ site.url }}/assets/images/25black.png), url({{ site.sources_url }}/2021-03-23-byz/byz.jpg);background-size: cover;background-position: 50% 40%;padding-top: 75px;padding-bottom: 75px;">
+        <h1 class="text-light container">{% if page.layout == "post" %}博客{% else %}{{ page.title }}{% endif %}</h1>
+    </div>
+
+    <br>
+
+    <div class="container">
+        {% if page.layout == "post" %}
+        <h3 style="text-align: center;">{{ page.title }}</h3>
+        <p style="text-align: center;">{{ page.date | date: "%Y年%m月%d日" }} | 作者:{{ page.writer }}</p>
+        <hr>
+        <div class="row">
+            <div class="col-lg-9">
+                {% endif %}
+                {{ content }}
+                {% if page.layout == "post" %}
+            </div>
+            <div class="col-lg-3">
+                <div class="d-block d-md-none" style="padding-top: 10px;">
+                    <hr>
+                    <h5 style="text-align: center;">留个评论再走吧！</h5>
+                </div>
+                <div id="vcomments"></div>
+                <script>
+                    new Valine({
+                        el: '#vcomments',
+                        appId: 'B4uIkfAAOja3XA1J5597LWW5-gzGzoHsz',
+                        appKey: '9pR5oTvXkDxSLQ0U0FqlMglM',
+                        avatar: 'retro',
+                        recordIP: true,
+                        visitor: true
+                    })
+                </script>
+            </div>
+        </div>
+        {% endif %}
+    </div>
+
+    <div class="container">
+        <hr>
+    </div>
+
+    {% include footer.html %}
+
+    {% include js.html %}
+</body>
+
+</html>
