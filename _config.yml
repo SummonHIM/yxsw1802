@@ -25,7 +25,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   广东省佛山邮电技工学校电子商务182班。友谊从此诞生，沟通从心开始。
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "yxsw1802.com.cn" # the base hostname & protocol for your site, e.g. http://example.com
-sources_url: "https://cloudflare-ipfs.com/ipfs/QmXVP88jkS8kEkGFWoekaTzys7jfnf9RMwdDcXfXENNp1B"
+sources_url: "https://cf-ipfs.com/ipfs/QmXVP88jkS8kEkGFWoekaTzys7jfnf9RMwdDcXfXENNp1B"
+ipfs_video: "https://ipfs.kxv.io/ipfs/QmXVP88jkS8kEkGFWoekaTzys7jfnf9RMwdDcXfXENNp1B"
 github_username:  SummonHIM
 
 paginate: 5
