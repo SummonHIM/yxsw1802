@@ -12,7 +12,7 @@
                         {% assign item_title = item.title %}
                         {% assign item_url = item.url %}
                         {% assign item_layout = item.layout %}
-                        <a class="nav-link {% if page_url == item_url or page_layout == item_layout or page_title contains item.title %} active{% endif %}" href="{% if item_url contains "http" %}{{ item_url }}{% else %}{{ site.url }}{{ item_url }}{% endif %}">{{ item_title }}</a>
+                        <a class="nav-link {% if page_url == item_url or page_layout == item_layout or page_title contains item.title %} active{% endif %}" href="{% if item_url contains "http" %}{{ item_url }}{% else %}https://{{ site.url }}{{ item_url }}{% endif %}">{{ item_title }}</a>
                     {% endfor %}
                 </nav>
             </div>
