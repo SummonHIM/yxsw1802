@@ -2,7 +2,8 @@
 layout: post
 title: 运动会第一天
 writer: 许鹏
-head_images: https://yxsw1802.coding.net/p/Sources/d/Sources/git/raw/master/2019-11-21-yun-dong-hui/01.jpg
+feature-img: https://yxsw1802.coding.net/p/Sources/d/Sources/git/raw/master/2019-11-21-yun-dong-hui/01.jpg
+thumbnail: https://yxsw1802.coding.net/p/Sources/d/Sources/git/raw/master/2019-11-21-yun-dong-hui/01.jpg
 ---
 &emsp;&emsp;“加油！加油！”“快呀！”“太棒了，继续努力呀！”。在我们的操场上，有阵阵响亮的呐喊声，让过路的行人都忍不住好奇的张望一下，想知道发生了什么事儿了？其实是我们邮校正在举行样篮球比赛。
 

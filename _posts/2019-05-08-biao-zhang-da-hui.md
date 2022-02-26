@@ -2,7 +2,8 @@
 layout: post
 title: 182班表彰大会
 writer: 许鹏
-head_images: https://yxsw1802.coding.net/p/Sources/d/Sources/git/raw/master/2019-05-08-biao-zhang-da-hui/1.jpg
+feature-img: https://yxsw1802.coding.net/p/Sources/d/Sources/git/raw/master/2019-05-08-biao-zhang-da-hui/1.jpg
+thumbnail: https://yxsw1802.coding.net/p/Sources/d/Sources/git/raw/master/2019-05-08-biao-zhang-da-hui/1.jpg
 ---
 &emsp;&emsp;今天下午接到通知去领奖状奖品，领啥奖状奖品呢？上学期我们班得到表彰表扬学习进步的同学的。于是我们班开了个颁奖兼表彰大会，我们班主任为我们的得奖的同学颁发奖状及奖品。
 

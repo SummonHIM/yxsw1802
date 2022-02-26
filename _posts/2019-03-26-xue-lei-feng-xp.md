@@ -2,7 +2,8 @@
 layout: post
 title: 学雷锋精神活动
 writer: 许鹏
-head_images: https://yxsw1802.coding.net/p/Sources/d/Sources/git/raw/master/2019-03-26-xue-lei-feng-xp/0.jpg
+feature-img: https://yxsw1802.coding.net/p/Sources/d/Sources/git/raw/master/2019-03-26-xue-lei-feng-xp/0.jpg
+thumbnail: https://yxsw1802.coding.net/p/Sources/d/Sources/git/raw/master/2019-03-26-xue-lei-feng-xp/0.jpg
 ---
 &emsp;&emsp;新学期开头又临近于雷锋纪念日，在我们美丽的校园里，总有一些不协调的东西，让她减少了几分绚丽：草坪上、花圃里、走廊中，总有那么异常显眼的果皮纸屑，吸引着我们的注意。这些垃圾不仅影响校园的整治和文明，也让学校师生产生了极大的厌恶感。为了增强同学们的环境保护意识，为广大师生提供一个洁净、舒适的学习环境，同时借此次雷锋纪念日,开展学雷锋活动，增进和增强班级同学之间的交流和团结合作的意识。
 

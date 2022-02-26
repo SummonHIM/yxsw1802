@@ -1,0 +1,20 @@
+# Localization strings
+str_follow_on: "关注我们的"
+str_rss_follow: "订阅我们的 RSS"
+str_share_on: "分享至"
+str_add_to: "添加至"
+str_email: "邮箱"
+str_tweet: "推特"
+str_pin_it: "Pin it"
+str_next_post: "下一篇"
+str_previous_post: "上一篇"
+str_next_page: "下一页"
+str_previous_page: "上一页"
+str_javascript_required_disqus: "请允许浏览器使用 JavaScript 来显示评论。"
+str_no_result_found: "未找到相关文章"
+str_cookie_approve: "同意"
+str_cookie_disclaimer: "我们希望您允许本站使用第三方 Cookie 和脚本来改进本网站的功能。"
+str_months: ["一月", "二月", "三月", "四月", "五月", "六月", "七月", "八月", "九月", "十月", "十一月", "十二月"]
+
+# Localization settings 
+cusdis_lang: zh-cn # es, tr, pt-BR
