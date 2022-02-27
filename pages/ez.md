@@ -6,9 +6,7 @@ permalink: /ez/
 一键关闭红蜘蛛软件
 
 ## 官方网站
-[ez.yxsw1802.com.cn](https://ez.yxsw1802.com.cn)
-
-[Github 下载](https://github.com/SummonHIM/EZ-RSKiller/releases)
+[https://ez.yxsw1802.com.cn](https://ez.yxsw1802.com.cn)
 
 ## 产品优势
 - 开源脚本，免费无毒。源代码随时可查。
