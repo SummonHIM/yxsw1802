@@ -7,6 +7,7 @@ title: 邮校商务1802班                                    # site's title
 description: "友谊从此诞生，沟通从心开始。"                     # used by search engines
 avatar: assets/img/triangle.png                         # Empty for no avatar in navbar
 favicon: assets/favicon.ico                             # Icon displayed in the tab
+locale: zh_CN
 
 # Header and footer text
 header_text: 邮校商务1802班  # Change Blog header text
