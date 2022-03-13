@@ -2,8 +2,8 @@
 layout: post
 title: 痛失亚军,含泪夺冠
 writer: 许鹏
-feature-img: https://yxsw1802.coding.net/p/Sources/d/Sources/git/raw/master/2019-04-28-ni-men-dou-shi-la-ji-xp/1.jpg
-thumbnail: https://yxsw1802.coding.net/p/Sources/d/Sources/git/raw/master/2019-04-28-ni-men-dou-shi-la-ji-xp/1.jpg
+feature-img: /assets/img/2019-04-28-ni-men-dou-shi-la-ji-xp/1.jpg
+thumbnail: /assets/img/2019-04-28-ni-men-dou-shi-la-ji-xp/1.jpg
 ---
 &emsp;&emsp;2019年4月25日下午，晴，已经酝酿许久的“趣味运动会”终于举行了，本该于上周举行的但因为天气原因改期了，苦练已久的我们早已是“磨刀霍霍向猪羊”的阵势了，不对应该是身怀本领无用武之地的我们终于找到了用武之地，因为我们坚信第一是我们182班的。
 

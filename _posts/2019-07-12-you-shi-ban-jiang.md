@@ -2,8 +2,8 @@
 layout: post
 title: 让我们难忘的一个日子
 writer: 许鹏、SummonHIM
-feature-img: https://yxsw1802.coding.net/p/Sources/d/Sources/git/raw/master/2019-07-12-you-shi-ban-jiang/1.jpg
-thumbnail: https://yxsw1802.coding.net/p/Sources/d/Sources/git/raw/master/2019-07-12-you-shi-ban-jiang/1.jpg
+feature-img: /assets/img/2019-07-12-you-shi-ban-jiang/1.jpg
+thumbnail: /assets/img/2019-07-12-you-shi-ban-jiang/1.jpg
 ---
 &emsp;&emsp;2019年7月11日下午，我校在多功能六室召开2018-2019学年第二学期学习比赛和班级文化建设活动总结暨表彰大会。
 

@@ -1,0 +1,11 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Serve a Jekyll Site",
+			"command": "bundle exec jekyll serve",
+			"type": "shell",
+			"problemMatcher": []
+		}
+	]
+}

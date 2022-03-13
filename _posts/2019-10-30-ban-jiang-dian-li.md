@@ -2,8 +2,8 @@
 layout: post
 title: 颁奖典礼
 writer: 许鹏
-feature-img: https://yxsw1802.coding.net/p/Sources/d/Sources/git/raw/master/2019-10-30-ban-jiang-dian-li/jb01.jpg
-thumbnail: https://yxsw1802.coding.net/p/Sources/d/Sources/git/raw/master/2019-10-30-ban-jiang-dian-li/jb01.jpg
+feature-img: /assets/img/2019-10-30-ban-jiang-dian-li/jb01.jpg
+thumbnail: /assets/img/2019-10-30-ban-jiang-dian-li/jb01.jpg
 ---
 &emsp;&emsp;今天接到学校通知我们去办公室领我们班上学期先进个人得奖的奖状和奖品。搬回了教室里面，共有33张奖状，以及无数个奖品。很多奖项都在我们班，我们班很多人都得奖，我们非常的开心。老师在讲台上喊我们的名字，有名字一个个都开心的上去取领奖状。领完之后总结，我们的目标是下一次，全班有份，把所有的奖项收进我们182班，加油182！
 
